@@ -1,0 +1,26 @@
+{"intents":   [
+  {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "whats up?", "hows it going?"],
+    "responses": ["Hello!", "Hey!", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["bye", "see ya", "have a good day", "I am going now", "cao", "bye for now"],
+    "responses": ["Thank you", "talk to you soon", "bye"]
+  },
+  {"tag": "age",
+    "patterns": ["how old are you?", "what is your age?", "how many years have you been alive?"],
+    "responses": ["I am 25 years old"]
+  },
+  {"tag": "account",
+    "patterns": ["how much money is in my account?", "how much money do I have?"],
+    "responses": ["You have 2000 euro in your account"]
+  },
+  {"tag": "new card",
+    "patterns": ["Can I order a new credit card?", "New credit card?", "Order a new credit card?"],
+    "responses": ["Sure, I have ordered you a new card"]
+  },
+  {"tag": "mortgage",
+    "patterns": ["When Is my next mortgage payment", "next mortgage payment date"],
+    "responses": ["Your next payment is June", "10/05/2022"]
+  }
+]}
